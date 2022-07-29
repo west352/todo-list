@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo List</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <!-- Import CSS stylesheet. -->
+    <link rel="stylesheet" href="./resources/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="title-div">
+        <span class="title">
+          <a href="#"> Todo List </a>
+        </span>
+        <span class="author">
+          <a href="https://github.com/west352" target="_blank">
+            &nbsp; West Liu &nbsp;
+          </a>
+        </span>
+      </div>
+    </header>
+    <main>
+      <div class="create-item-div">
+        <input
+          id="toggle-all-items-button"
+          class="hide"
+          type="checkbox"
+          onclick="controller.toggleAllItems()"
+        />
+        <form id="create-item-form">
+          <input
+            id="create-item-input"
+            type="text"
+            placeholder="Add a new item"
+            onkeyup="view.displayCreateItemButton()"
+          />
+          <button
+            type="button"
+            id="create-item-button"
+            class="hide"
+            onclick="controller.createItem()"
+          >
+            +
+          </button>
+        </form>
+        <button class="x-button" onclick="controller.clearForm()">x</button>
+      </div>
+      <div class="items-list-div">
+        <br />
+        <ul></ul>
+      </div>
+      <button
+        id="delete-all-items-button"
+        onclick="controller.deleteAllItems()"
+      >
+        DELETE All
+      </button>
+    </main>
+    <script src="./resources/js/script.js"></script>
+  </body>
+</html>
