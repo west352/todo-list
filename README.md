@@ -12,7 +12,7 @@ There is another version of this application built by React and Redux with addit
 - The application also supports mobile users. 
 
 ### Usage
-- The applicaton can be directly accessed in browser through the URL: west352.github.io/todo-list/
+- The applicaton can be directly accessed in browser through the URL: https://west352.github.io/todo-list/
 - The application can be cloned to user's local computer and viewd or modified through any code editor such as VSCode.
 - Make sure to download the Node.js runtime environment on your local machine, if you want to modify the application in a code editor.
 
