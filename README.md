@@ -9,6 +9,7 @@ There is another version of this application built by React and Redux with addit
 - Toggle all the items in the todo list by clicking the checkbox beside adding a new todo item input field.
 - A todo item can also be deleted from the list.
 - Delete all the todo items in the list by pressing the "DELETE ALL" button at the bottom. The window will alert the user to confirm the action.
+- The application also supports mobile users. 
 
 ### Usage
 - The applicaton can be directly accessed in browser through the URL: west352.github.io/todo-list/
